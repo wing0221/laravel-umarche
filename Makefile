@@ -3,3 +3,7 @@ s:
 
 m:
 	php artisan migrate
+
+cc:
+	php artisan config:clear
+	php artisan cache:clear

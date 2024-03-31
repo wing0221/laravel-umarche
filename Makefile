@@ -7,3 +7,6 @@ m:
 cc:
 	php artisan config:clear
 	php artisan cache:clear
+rl:
+	php artisan route:list > route.txt
+	cursor route.txt
